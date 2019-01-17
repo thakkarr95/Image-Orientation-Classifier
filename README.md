@@ -10,11 +10,12 @@
 `orient.py` contains the complete code which implementes the algorithms stated above.
 
 Usage:
-1. To train a model (<model_name> can be nearest, adaboost, forest, best)
+
+To train a model (<model_name> can be nearest, adaboost, forest, best)
    
    $ python3 orient.py train train-data.txt <model_file>.pkl <model_name>
 
-2. To test a model (<model_name> can be nearest, adaboost, forest, best)
+To test a model (<model_name> can be nearest, adaboost, forest, best)
    
    $ python3 orient.py test test-data.txt <model_file>.pkl <model_name>
 
