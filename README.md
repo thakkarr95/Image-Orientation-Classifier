@@ -13,11 +13,11 @@ Usage:
 
 To train a model (<model_name> can be nearest, adaboost, forest, best)
 
-$ python3 orient.py train train-data.txt <model_file>.pkl <model_name>
+    $ python3 orient.py train train-data.txt <model_file>.pkl <model_name>
 
 To test a model (<model_name> can be nearest, adaboost, forest, best)
    
-$ python3 orient.py test test-data.txt <model_file>.pkl <model_name>
+    $ python3 orient.py test test-data.txt <model_file>.pkl <model_name>
 
 Check `Problem Description.pdf` for more details related to problem description
 
